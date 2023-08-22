@@ -1,0 +1,10 @@
+INSERT INTO stages(stage_level,address) value (1,"StageData/stageData1.asset"),(2,"StageData/stageData2.asset"),(3,"StageData/stageData3.asset");
+
+INSERT INTO users(user_name,password,current_coin) value ("testUser",123456,100000);
+
+INSERT INTO skins(skin_name,address) value ("testSkin","SkinData/SkinData1.asset"),("testSkin2","SkinData/SkinData2.asset"),("testSkin3","SkinData/SkinData3.asset");
+
+INSERT INTO gachas(gacha_name,gacha_count,consume_coin) value ("singleGacha",1,10),("multigacha0",10,100);
+
+INSERT INTO gacha_rates(skin_id,gacha_id,gacha_rate) value (1,1,60),(2,1,30),(3,1,10),(1,2,60),(2,2,30),(3,2,10);
+
